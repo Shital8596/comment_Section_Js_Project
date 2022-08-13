@@ -2,7 +2,7 @@
 # Topic: Comment Section
     I have created a comment section similar to comment section of youtube or such platform.
 # What tools I have used
-    HTMl
+    HTML
     CSS
     JavaScript
 # Description 
