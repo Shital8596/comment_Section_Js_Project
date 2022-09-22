@@ -125,7 +125,7 @@ function deleteComment(e){
     <div class="comment_footer">
     <div class="like btn" onclick="likes('likeSpan${id2}')">Like <span id="likeSpan${id2}">0</span></div>
     <div class="dislike btn" onclick="disLikes('dislikeSpan${id2}')">Dislike <span id="dislikeSpan${id2}">0</span></div>
-        <div class="reply btn" id="one" onclick="doSomething('container${id2}','card${id2}','replySpan${id2}')">Reply <span id="replySpan${id2}">2</span></div>
+        <div class="reply btn" id="one" onclick="doSomething('container${id2}','card${id2}','replySpan${id2}')">Reply <span id="replySpan${id2}">0</span></div>
         <div class="delete btn" onclick="deleteComment('container${id2}')">Delete</div>
     </div>
 </div>
