@@ -104,6 +104,8 @@ function deleteComment(e){
 //------------->For Adding New Comment
 
  sendButton.addEventListener('click',()=>{
+     
+     const CommentTextArea = document.getElementById('commentText');
     id2 = id2 + 1;
     console.log(parseInt(id2));
     let innerContainer = document.createElement("div");
@@ -132,7 +134,11 @@ function deleteComment(e){
 </div>
 `
 
-    container.append(innerContainer);
+    if(CommentTextArea.value === ''){
+        alert("Comment should not be empty!!");
+    }else{
+        container.append(innerContainer);
+    }
     innerTextContainer.value = "";
 
 });
