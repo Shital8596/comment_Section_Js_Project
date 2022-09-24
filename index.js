@@ -88,11 +88,9 @@ function addReply(d,f,e){
                         </div>
                         </div>
                    `
-
-                if(newTextBox.value === ''){alert("Please add some reply!!")
-                }else{
-                    replyContainer.append(innerContainer);
-                }
+                        
+                   replyContainer.append(innerContainer);
+                
 
                 // To increase reply count
 
